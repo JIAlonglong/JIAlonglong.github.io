@@ -16,12 +16,12 @@ Education
 
 Work experience
 ======
-* June 2025 - Present: Research Assistant
+* June 08 2025 - Present: Research Assistant
   * The Hong Kong University of Science and Technology (Guangzhou)
   * Duties included: Collaborating with Professor Changhao Chen on research into robotic control algorithms and deployment of unmanned systems
   * Supervisor: Professor Changhao Chen
 
-* April 2025 - May 2025: Robotic Software Engineer Intern
+* April 07 2025 - May 23 2025: Robotic Software Engineer Intern
   * Botyard AI
   * Duties included: Leading ROS development for dexterous hand and UR16e robotic arm using ros2_control framework; implementing motion control, sensor data processing, and communication modules for the dexterous hand
 
