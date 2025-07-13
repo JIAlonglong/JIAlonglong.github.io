@@ -7,8 +7,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-# About Me 🤖
-
 Hello! I'm Jialong Liu, a dedicated researcher and enthusiast in robotics. I hold a Bachelor's degree in Robot Engineering from the School of Automation, Guangdong University of Technology (GDUT) 🎓. My academic journey and hands-on experiences have fueled a strong passion for robotic control algorithms, reinforcement learning, and intelligent system integration.
 
 ## Research Interests 🔍
