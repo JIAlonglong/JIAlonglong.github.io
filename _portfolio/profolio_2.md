@@ -5,7 +5,7 @@ University of Science and Technology of China (USTC). As a robotic software engi
 of the UR16e robotic arm. I led the development of ROS2 Jazzy/Humble versions, which included: 
 - Motion control systems and sensor data processing pipelines
 - Communication module architecture for multi-device
-coordination<br/><img src='/images/botyard_ai_dexhand.jpg'>"
+coordination<br/><img src='/images/botyard_ai_dexhand.png'>"
 collection: portfolio
 ---
 According to the company's confidentiality agreement, I cannot disclose content that has not
