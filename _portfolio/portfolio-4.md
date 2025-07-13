@@ -285,7 +285,7 @@ graph LR
   
   This is an elephant robot made for the 2023 Robocon National Robot Competition. Its function is to reach the designated ring points on both sides, and after taking the ring, shoot and score the pillars on the field. The robot uses a chassis structure with three rudders, which has a faster moving speed. A gimbal with three degrees of freedom is selected on the launch mechanism, and a kinematic model is performed on the two mechanisms respectively, so as to achieve the effect of precise control.
   
-  ![error](https://github.com/JIAlonglong/JIAlonglong.github.io/blob/master/images/r2_2023.png?raw=true)
+  ![error](https://github.com/JIAlonglong/JIAlonglong.github.io/blob/master/images/r1_2023.png?raw=true)
   
                                   Figure 13.Physical picture of elephant robot
 
