@@ -127,6 +127,8 @@ graph TD
   2. **Position Mode Check**: When in position mode and the target position is reached, set a completion flag to trigger mode switching.
      
      1. **Speed Control**: Execute speed-loop PID calculation to regulate the motor’s rotational speed.
+
+    
 ```c        
   // 速度环输出限幅
   float cali_out = constrain(cali_out, -1.5 * canstactorRealInfo[1].TORQUE, 1.5 * canstactorRealInfo[1].TORQUE);
@@ -140,6 +142,7 @@ graph TD
   
   pid_calc(&CANSTATOR_PID[0], canstactorRealInfo[1].TARGET_RPM, canstactorRealInfo[1].RPM); // 速度环
 ```
+
 
 - **Setting Mode**
   
