@@ -24,6 +24,7 @@ main control chip
 for rolling and swinging respectively.
 4. Flight Control System: The Pixhawk 6C Mini is directly used for configuration. Through the
 flight control, it controls four ducted motors to achieve the flight control of the robot.
+
 ### 2.Implement a rolling control algorithm
 <img src='/images/UAV_mpc_control_diagram.png'>
 1.Algorithm Architecture Selection: Chose the MPC algorithm architecture for the design.
