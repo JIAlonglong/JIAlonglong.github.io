@@ -14,11 +14,11 @@ My primary focus lies in **robotic control algorithms** and **reinforcement lear
 
 ## Academic & Practical Experience 🛠️
 - **Research Assistant** | The Hong Kong University of Science and Technology (Guangzhou)  
-  *June 2025 - Present*  
+  *June 08 2025 - Present*  
   Collaborating with Professor Changhao Chen on robotic control algorithms and unmanned system deployment, deepening expertise in advanced robotic systems .
 
 - **Robotic Software Engineer Intern** | Botyard AI  
-  *April 2025 - May 2025*  
+  *April 07 2025 - May 23 2025*  
   Led ROS development for dexterous hands and UR16e robotic arms using the ros2_control framework, implementing motion control, sensor data processing, and communication modules .
 
 ## Key Projects & Achievements 🏆
