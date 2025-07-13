@@ -349,10 +349,11 @@ Note: 1/3 of the parameters here may require specific adjustments
      For the path planning of the chassis, we adopt a three-stage method. In the first stage, we use the odometer to perform a rough path approximation. Then, in the second stage, we use the value of the DT35 laser ranging module as the position, feedback, and gradually approach the more accurate point from the rough point. However, due to the certain errors of the DT35 module itself and the turning characteristics of the rudder wheel, the final accurate point may still have an error of close to 1cm. Therefore, we still need to make fine adjustments in the third stage to ensure that the vehicle can accurately reach the target position. In the third section, we directly assign the speed of the chassis in a specific direction and fine-tune it through the feedback of the laser to ensure that the speed is zero when the chassis reaches the target position. This three-stage path planning method can effectively improve the accuracy and accuracy of path planning, thus making the movement of the chassis more stable and reliable.
 
 ## The GitHub repository mentioned in the text
-[rc_control](https://github.com/gdut-robocon/rc_control)
-[rc_decision](https://github.com/gdut-robocon/rc_decision)
-[rc_controller](https://github.com/gdut-robocon/rc_controllers)
-[rc_desciption](https://github.com/gdut-robocon/rc_description)
-[rc_radar](https://github.com/gdut-robocon/rc_radar)
-[rc_bringup](https://github.com/gdut-robocon/rc_bringup)
-[rc_32framework](https://github.com/gdut-robocon/rc_32framework)
+### 🤩 Welcome to star the repository if you find our work helpful to you.
+<br/>[rc_control](https://github.com/gdut-robocon/rc_control)
+<br/>[rc_decision](https://github.com/gdut-robocon/rc_decision)
+<br/>[rc_controller](https://github.com/gdut-robocon/rc_controllers)
+<br/>[rc_desciption](https://github.com/gdut-robocon/rc_description)
+<br/>[rc_radar](https://github.com/gdut-robocon/rc_radar)
+<br/>[rc_bringup](https://github.com/gdut-robocon/rc_bringup)
+<br/>[rc_32framework](https://github.com/gdut-robocon/rc_32framework)
