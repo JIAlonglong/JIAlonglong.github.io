@@ -17,7 +17,7 @@ You can [click here](https://www.bilibili.com/video/BV1um4y1p7Fr/?spm_id_from=33
   
   In the second semester of my junior year, I participated in the Robocon. The theme of this year's competition is particle return to the warehouse. This stage mainly participates in the algorithm deployment and development of the positioning and navigation of the R2 automatic robot. This robot is responsible for the following tasks in the competition: First,Navigate to the storage area. Second, Place balls (grains) of different colors in designated boxes according to certain logic Third,Automatically decide the winning strategy to help the team score points.
   
-  ![error](../images/R2_2024.png)
+  ![error](https://github.com/JIAlonglong/JIAlonglong.github.io/blob/master/images/R2_2024.png?raw=true)
   
                               Figure 1. Physical picture of R2 automatic robot
 
