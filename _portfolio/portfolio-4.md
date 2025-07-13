@@ -5,7 +5,8 @@ competition in two different capacities:
 team leader and technical advisor.During the 23rd season,I was involved in the
 development of control codes for rabbit and elephant robots,as well as the
 development of the ROS segment.In the 24th season,I was mainly responsible for the development of decision-making algorithms
-for autonomous robots.<br/><img src='/images/ROBOCON.png'>"
+for autonomous robots.<br/>By the way,our team won the national first, second and third prizes. It is particularly
+worth mentioning that we achieved the 2nd place in the national preliminary competition in 2023!<img src='/images/ROBOCON.png'>"
 collection: portfolio
 ---
 You can [click here](https://www.bilibili.com/video/BV1um4y1p7Fr/?spm_id_from=333.1387.0.0&vd_source=809a8e4a3a25a8809f443b4da653e707) to watch the wonderful moments of our competition.
