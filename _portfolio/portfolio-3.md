@@ -5,7 +5,7 @@ the Guangdong-Hong Kong Robotics Academy, responsible for a flight control part 
 combines a spherical robot and a drone. This robot can shuttle through complex terrain and
 avoid obstacles by flying. It can not only conduct drone patrols in terrain such as forests, but
 also use the rolling characteristics of spherical robots to cross complex terrain areas.
-coordination<br/><img src='/images/UAV.png'>"
+<br/><img src='/images/UAV.png'>"
 collection: portfolio
 ---
 # Main Contributions:
