@@ -301,9 +301,9 @@ graph LR
      
      **Wheel position**: The three wheels are evenly distributed on the circumference, and the angles with the center line are 0 °, 120 °, 240 °, and the radius is r.
      
-     **Projection of robot linear velocity**: $v_x​cosθ_i​+v_y​sinθ_i​$
+     **Projection of robot linear velocity**:        $v_x​cosθ_i​+v_y​sinθ_i​$
      
-     **Tangential velocity due to angular velocity**: $ω⋅r$
+     **Tangential velocity due to angular velocity**:    $ω⋅r$
      
       **Steering angle calculation**:  
 Let the original transformation matrix be $\boldsymbol{A}$. The following relationship holds:
