@@ -64,7 +64,7 @@ In terms of robot positioning, we selected the mid360 radar to locate the robot 
    
    In terms of planner: We encapsulate the most basic path planning algorithm into a class in the host computer. The encapsulation scheme is a base_local planner with reference to ROS. The interface is consistent with it, which can easily access open-source curve planning, but our planner does not join local paths and load them into plug-ins. This R2 path planning is a path planning call directly in the application layer of the APP. A smooth path can be generated given the target point and the midpoint of the path. Finally, a PD tracker is used to track the path points.
    
-     ![error](../images/real_time_path.png)
+   ![error](https://github.com/JIAlonglong/JIAlonglong.github.io/blob/master/images/real_time_path.png?raw=true)
    
                            Figure 3.Limiting the robot's real-time path in rviz
    
@@ -78,7 +78,7 @@ In terms of robot positioning, we selected the mid360 radar to locate the robot 
   
   This project is a national college student robot competition for 2024Robocon. The theme is pellet return to the warehouse. I was responsible for the control part of the R1 robot in the first semester of my junior year. I was responsible for the STM32 configuration of the robot, path planning and the writing of the fine-state machine (FSM) globally. The task of this robot is to place the competition supplies (seedlings) in the transplanting area and project the harvested barn (pellets) to the receiving area. Thus completing the flow of the entire robot. Achieve the score of the competition.
   
-  ![error](../images/R1_2024.png)
+  ![error](https://github.com/JIAlonglong/JIAlonglong.github.io/blob/master/images/R1_2024.png?raw=true)
   
                                          Figure 4.Overall picture of R1 robot
 
@@ -88,7 +88,7 @@ In terms of robot positioning, we selected the mid360 radar to locate the robot 
   
   1. Optimization of motor control modules
      
-     ![](../images/motor_control.png)
+     ![error](https://github.com/JIAlonglong/JIAlonglong.github.io/blob/master/images/motor_control.png?raw=true)
                                          Figure 5.Motor Mode Code Block
      
      In the motor control, I was responsible for optimizing the position mode, return to zero mode, setting mode and angle integration of the DJI series motors.
@@ -189,7 +189,7 @@ graph TD
   
   This is a competition for 2023 Robocon, and the theme of the competition is "Flower of Angkor". Specifically, the two sides play a quick ring game. During the competition, I am responsible for the control part of the "Rabbit" robot. The main functions of the Rabbit robot are to plan the steps to the designated ring point, and then identify different types of scoring columns after taking the ring to score the ring. The Rabbit robot adopts a control system without a lower machine, which connects the upper-level algorithm with the lower-level robot's bottom-level logic.
   
- ![error](../images/r2_2023.png)
+ ![error](https://github.com/JIAlonglong/JIAlonglong.github.io/blob/master/images/r2_2023.png?raw=true)
   
                                   Figure 8.Physical picture of rabbit robot
 
@@ -199,11 +199,12 @@ graph TD
      
      In this competition, Rabbit uses the ros_control architecture. Specifically, this is a set of electronic control software used under the PC to operate without the lower computer. At present, four controllers have been developed, including action_controller, chassis_controller, rc_gimbal_controller, rc_shooter_controller combined with some hardware drivers, which can be used for the development of Robocon robots.
      
-     ![error](../images/ros_control.png)
+     ![error](https://github.com/JIAlonglong/JIAlonglong.github.io/blob/master/images/ros_control.png?raw=true)
      
                                      Figure 9.Ros-control data flow diagram
      
-     ![error](../images/rc_control.png)
+     ![error](https://github.com/JIAlonglong/JIAlonglong.github.io/blob/master/images/rc_control.png?raw=true)
+     
                                          Figure 10.rc_control frame diagram
      
      Light blue represents a Node (process); light green represents a class name or related mechanism; light yellow represents configuration files and data; orange represents topics, nodes, and actions in ROS communication; red represents a real car
@@ -211,7 +212,8 @@ graph TD
      2.Decision System Based on Behavior Tree(rc_decision)
      
          rc_decision is a general robot decision package based on the Behavior Tree, a control model widely used in the artificial intelligence and gaming industries. Behavior trees are hierarchical control structures composed of a series of nodes that represent different behaviors or decisions that a robot can perform. Behavior tree nodes are divided into three types: behavioral nodes, conditional nodes, and control nodes.
-     ![error](../images/Groot.png)
+
+     ![error](https://github.com/JIAlonglong/JIAlonglong.github.io/blob/master/images/Groot.png?raw=true)
      
                                          Figure 11.Groot software interface
      
@@ -283,7 +285,7 @@ graph LR
   
   This is an elephant robot made for the 2023 Robocon National Robot Competition. Its function is to reach the designated ring points on both sides, and after taking the ring, shoot and score the pillars on the field. The robot uses a chassis structure with three rudders, which has a faster moving speed. A gimbal with three degrees of freedom is selected on the launch mechanism, and a kinematic model is performed on the two mechanisms respectively, so as to achieve the effect of precise control.
   
-  ![error](../images/r1_2023.png)
+  ![error](https://github.com/JIAlonglong/JIAlonglong.github.io/blob/master/images/r2_2023.png?raw=true)
   
                                   Figure 13.Physical picture of elephant robot
 
@@ -291,7 +293,7 @@ graph LR
   
   1. Solution and Control of Three-wheel Steering Wheel
      
-       ![error](../images/chassis.png)
+     ![error](https://github.com/JIAlonglong/JIAlonglong.github.io/blob/master/images/chassis.png?raw=true)
      
                                      Figure 14.Three-wheel experimental chassis
      
