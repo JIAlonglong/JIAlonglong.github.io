@@ -13,9 +13,9 @@ collection: portfolio
   
   1. Robotic arm control
      
-     <img src="file:///C:/Users/24954/AppData/Roaming/marktext/images/2025-03-07-21-42-31-image.png" title="" alt="" data-align="center">
+     ![error](https://github.com/JIAlonglong/JIAlonglong.github.io/blob/master/images/arm_1.png?raw=true)
      
-                         Figure 20.Schematic diagram of robot joint motion
+                         Figure 1.Schematic diagram of robot joint motion
      
      First of all, we carried out the forward and inverse kinematics solution of the robotic arm in matlab. We used the DH method for the forward motion solution, and the analytical solution for the inverse kinematics solution. After doing the above theoretical work in Matlab, we used the ROS package provided by JAKA to customize the control of the robotic arm to meet our needs for touch at different depths and speeds.
 
@@ -49,4 +49,4 @@ graph TD
     class Start,GetPositionAndOrientation,MovementLoop,CheckSRV2Response,HandleGoalFailure,AdjustmentLoop,CheckTargetReached,StopMovement,PrintGoalEntered,HandleGoalSuccess,VerifyTargetReached,CalculateNextTarget,MoveToNextPoint,PrintSuccessMessage,PrintServiceStatus process
 ```
 
-                                Figure 21.Flow chart of ROS control manipulator
+                                Figure 2.Flow chart of ROS control manipulator
