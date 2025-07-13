@@ -26,7 +26,7 @@ graph TD
     FM -->|Rehab Monitoring| CT
 ```
 
-                                               Figure 17. overall data flow diagram
+                                               Figure 1. overall data flow diagram
 
 The sensor collects foot pressure and sports posture data, the micro-computer in the shoe recognizes walking, running, jumping and other states in real time, and synchronizes the data to the cloud to analyze the risk of sports injuries and diabetes and other diseases. The mobile APP displays real-time status, health reports, and can remotely start foot massage. The system dynamically adjusts the massage plan according to the cloud suggestions to form a closed-loop health management of "monitoring-analysis-intervention".
 
@@ -45,4 +45,4 @@ graph TD
     F -->|No| H[Continue]
 ```
 
-                                Figure 18.local algorithm architecture diagram
+                                Figure 2.local algorithm architecture diagram
