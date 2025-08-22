@@ -40,6 +40,9 @@ Project experience
 
 Honors & Awards
 ======
+* First Prize, the 24th National College Student Robot Competition (ROBOCON) *National runner-up!*
+* First Prize, the Skills Competition of the 24th National College Student Robot Competition (ROBOCON)
+* Best Design Award of the 24th National College Students Robot Competition (ROBOCON)
 * First prize, the 22nd National College Student Robot Competition (ROBOCON)
 * Second prize, the 23rd National College Student Robot Competition (ROBOCON) Operation Challenge
 * Third prize, the 23rd National College Student Robot Competition (ROBOCON) Programming Challenge
