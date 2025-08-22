@@ -25,6 +25,9 @@ My primary focus lies in **robotic control algorithms** and **reinforcement lear
 My project portfolio spans diverse robotic applications, including developing decision-making algorithms for Robocon robots, designing control architectures for emergency-response spherical robots with ducted UAVs, and building smart medical arm systems .  
 
 These efforts have earned recognition such as:  
+- 1st Prize at the 24th National College Student Robot Competition (ROBOCON)  *National runner-up!*
+- 1st Prize in the Skills Competition of the 24th National College Student Robot Competition (ROBOCON)
+- Best Design Award of the 24th National College Students Robot Competition (ROBOCON)
 - 1st Prize at the 22nd National College Student Robot Competition (ROBOCON)   
 - 2nd Prize at the 23rd National College Student Robot Competition (ROBOCON) Operation Challenge   
 - 3rd Prize at the 23rd National College Student Robot Competition (ROBOCON) Programming Challenge   
