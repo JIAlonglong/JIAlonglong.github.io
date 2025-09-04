@@ -7,7 +7,10 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hello! I'm Jialong Liu, a dedicated researcher and enthusiast in robotics. I hold a Bachelor's degree in Robot Engineering from the School of Automation, Guangdong University of Technology (GDUT) 🎓. My academic journey and hands-on experiences have fueled a strong passion for robotic control algorithms, reinforcement learning, and intelligent system integration.
+Hi! I’m Jialong Liu, a soon-to-be MPhil student at HKUST(GZ) who loves robotics 🤖.
+I got my Bachelor’s in Robotics Engineering from GDUT’s School of Automation 🎓. My interests are robotic control algorithms, reinforcement learning, and intelligent system integration.
+Excited to learn and connect with the HKUST(GZ) community!
+
 
 ## Research Interests 🔍
 My primary focus lies in **robotic control algorithms** and **reinforcement learning (RL)**, with emphasis on developing efficient, adaptive control strategies for complex robotic systems. I am particularly fascinated by RL's potential to enable robots to learn and adapt in dynamic environments, as well as the synergy between machine learning techniques and traditional control theory to enhance robotic performance. Additionally, I have keen interests in Robot Operating System (ROS), motion planning, and unmanned system deployment—all of which contribute to my holistic understanding of robotics .
@@ -25,9 +28,6 @@ My primary focus lies in **robotic control algorithms** and **reinforcement lear
 My project portfolio spans diverse robotic applications, including developing decision-making algorithms for Robocon robots, designing control architectures for emergency-response spherical robots with ducted UAVs, and building smart medical arm systems .  
 
 These efforts have earned recognition such as:  
-- 1st Prize at the 24th National College Student Robot Competition (ROBOCON)  *National runner-up!*
-- 1st Prize in the Skills Competition of the 24th National College Student Robot Competition (ROBOCON)
-- Best Design Award of the 24th National College Students Robot Competition (ROBOCON)
 - 1st Prize at the 22nd National College Student Robot Competition (ROBOCON)   
 - 2nd Prize at the 23rd National College Student Robot Competition (ROBOCON) Operation Challenge   
 - 3rd Prize at the 23rd National College Student Robot Competition (ROBOCON) Programming Challenge   
