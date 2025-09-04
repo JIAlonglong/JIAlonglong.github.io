@@ -11,7 +11,8 @@ redirect_from:
 
 Education
 ======
-* B.S. in Robot Engineering, Guangdong University of Technology (GDUT), 2025
+* M.Phil. in Artificial Intelligence, The Hong Kong University of Science and Technology(Guangzhou), 2026-
+* B.S. in Robot Engineering, Guangdong University of Technology (GDUT), 2021-2025
 * Coursework: Robotics, Machine Learning, Image Processing and Machine Vision, Robot Operating System, Principle of Automatic Control, Humanoid Robotics, ROS Control, Adams Kinematic Simulation, Programming, Signals and Systems
 
 Work experience
