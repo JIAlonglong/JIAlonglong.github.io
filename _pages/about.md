@@ -18,7 +18,7 @@ My primary focus lies in **robotic control algorithms** and **reinforcement lear
 ## Academic & Practical Experience 🛠️
 - **Research Assistant** | The Hong Kong University of Science and Technology (Guangzhou)  
   *June 08 2025 - Present*  
-  Collaborating with Professor Changhao Chen on robotic control algorithms and unmanned system deployment, deepening expertise in advanced robotic systems .
+  Collaborating with Professor [Changhao Chen](https://changhao-chen.github.io/) on robotic control algorithms and unmanned system deployment, deepening expertise in advanced robotic systems.
 
 - **Robotic Software Engineer Intern** | Botyard AI  
   *April 07 2025 - May 23 2025*  
@@ -43,7 +43,7 @@ Skilled in:
 - Fields: Machine Learning (ML), Reinforcement Learning (RL) .
 
 ## Future Goals 🚀
-I am actively seeking opportunities to pursue a Master’s or Ph.D. degree to deepen my research in robotic control algorithms and reinforcement learning. I aim to collaborate with academic experts to address complex challenges in robotics and drive innovation in the field.
+I am actively seeking opportunities to pursue a Ph.D. degree to deepen my research in robotic control algorithms and reinforcement learning. I aim to collaborate with academic experts to address complex challenges in robotics and drive innovation in the field.
 
 ## Connect With Me 📬
 - Email: jialonglongliu@gmail.com  
