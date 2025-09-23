@@ -9,14 +9,19 @@ redirect_from:
 
 {% include base_path %}
 
-# 📄 Resume   
+# 📄 Resume  
+*Focus Area: Robotics & Artificial Intelligence*  
 ---
 
 ## 🎓 Education  
-| Degree | Institution | Timeframe |  
-|--------|-------------|-----------|  
-| M.Phil. in Artificial Intelligence | The Hong Kong University of Science and Technology (Guangzhou) | 2026- |  
-| B.S. in Robot Engineering | Guangdong University of Technology (GDUT) | 2021-2025 |  
+
+- **M.Phil. in Artificial Intelligence**  
+  [The Hong Kong University of Science and Technology (Guangzhou)](https://www.hkust-gz.edu.cn/)  
+  *2026-*  
+
+- **B.S. in Robot Engineering**  
+  [Guangdong University of Technology (GDUT)](https://www.gdut.edu.cn/)  
+  *2021-2025*  
 
 **Core Coursework**:  
 - Robotics, Machine Learning, Image Processing & Machine Vision  
@@ -27,6 +32,7 @@ redirect_from:
 ---
 
 ## 💼 Work Experience  
+
 ### 🔹 Research Assistant  
 *The Hong Kong University of Science and Technology (Guangzhou)* | June 08, 2025 – Present  
 - Collaborate with Professor Changhao Chen on R&D of **robotic control algorithms** and deployment of unmanned systems  
@@ -41,6 +47,7 @@ redirect_from:
 ---
 
 ## 📝 Project Experience  
+
 1. **Dec 2024** – Spherical Robot Control: Emergency Response via Spherical-Ducted UAV Integration  
 2. **Jun 2024** – Robocon: R2 Robot Decision-Making, Positioning & Navigation Algorithm Construction  
 3. **Feb 2024** – Robocon: Control Architecture Design for the R1 Robot  
@@ -56,20 +63,20 @@ redirect_from:
 ---
 
 ## 🏆 Honors & Awards  
-| Award Level | Competition/Title |  
-|-------------|-------------------|  
-| First Prize | The 22nd National College Student Robot Competition (ROBOCON) |  
-| Second Prize | The 23rd National College Student Robot Competition (ROBOCON) – Operation Challenge |  
-| Third Prize | The 23rd National College Student Robot Competition (ROBOCON) – Programming Challenge |  
-| National Second Prize | 2024 RoboCom Robot Developer Competition |  
-| Guangdong Province First Prize | China Robot and Artificial Intelligence Competition |  
-| Second Prize | Guangdong University Student Computer Works Competition |  
-| Third-Class Scholarship | Guangdong University of Technology Annual Outstanding Student (2022-2023) |  
+
+- First Prize | The 22nd National College Student Robot Competition (ROBOCON)  
+- Second Prize | The 23rd National College Student Robot Competition (ROBOCON) – Operation Challenge  
+- Third Prize | The 23rd National College Student Robot Competition (ROBOCON) – Programming Challenge  
+- National Second Prize | 2024 RoboCom Robot Developer Competition  
+- Guangdong Province First Prize | China Robot and Artificial Intelligence Competition  
+- Second Prize | Guangdong University Student Computer Works Competition  
+- Third-Class Scholarship | Guangdong University of Technology Annual Outstanding Student (2022-2023)  
 
 
 ---
 
 ## 🛠️ Technical Skills  
+
 ### 💻 Programming Languages  
 C/C++, Python, JavaScript, Matlab  
 
