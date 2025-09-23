@@ -9,57 +9,82 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* M.Phil. in Artificial Intelligence, The Hong Kong University of Science and Technology(Guangzhou), 2026-
-* B.S. in Robot Engineering, Guangdong University of Technology (GDUT), 2021-2025
-* Coursework: Robotics, Machine Learning, Image Processing and Machine Vision, Robot Operating System, Principle of Automatic Control, Humanoid Robotics, ROS Control, Adams Kinematic Simulation, Programming, Signals and Systems
+# 📄 Resume   
+---
 
-Work experience
-======
-* June 08 2025 - Present: Research Assistant
-  * The Hong Kong University of Science and Technology (Guangzhou)
-  * Duties included: Collaborating with Professor Changhao Chen on research into robotic control algorithms and deployment of unmanned systems
-  * Supervisor: Professor Changhao Chen
+## 🎓 Education  
+| Degree | Institution | Timeframe |  
+|--------|-------------|-----------|  
+| M.Phil. in Artificial Intelligence | The Hong Kong University of Science and Technology (Guangzhou) | 2026- |  
+| B.S. in Robot Engineering | Guangdong University of Technology (GDUT) | 2021-2025 |  
 
-* April 07 2025 - May 23 2025: Robotic Software Engineer Intern
-  * Botyard AI
-  * Duties included: Leading ROS development for dexterous hand and UR16e robotic arm using ros2_control framework; implementing motion control, sensor data processing, and communication modules for the dexterous hand
+**Core Coursework**:  
+- Robotics, Machine Learning, Image Processing & Machine Vision  
+- Robot Operating System (ROS), Principle of Automatic Control, Humanoid Robotics  
+- ROS Control, Adams Kinematic Simulation, Programming, Signals and Systems  
 
-Project experience
-======
-* Dec 2024: Spherical Robot Control: Emergency Response via Spherical - Ducted UAV Integration
-* Jun 2024: Robocon: R2 robot decision - making, positioning & navigation algo construction
-* Feb 2024: Robocon: Control architecture design for the R1 robot
-* Nov 2023: A sports and health analyzer based on CNN-LSTM
-* Jul 2023: Manipulator control, sensor collection, model building for smart med - arms
-* Mar 2023: Robocon: Rabbit robot behavior tree strategy design & ros_control arch migration
-* Dec 2022: Robocon: Elephant Robotics' robots - steering wheel chassis control & path planning
-* Sep 2022: Robot Basic Competition: 2D radar algorithm design and control code development
-* Feb 2022: Design of control program and visual solution for logistics terminal delivery vehicles
-* Nov 2021: Patrol Trolley Based on Digital Logic Circuit
 
-Honors & Awards
-======
-* First prize, the 22nd National College Student Robot Competition (ROBOCON)
-* Second prize, the 23rd National College Student Robot Competition (ROBOCON) Operation Challenge
-* Third prize, the 23rd National College Student Robot Competition (ROBOCON) Programming Challenge
-* National Second prize, the 2024 RoboCom Robot Developer Competition
-* Guangdong Province first prize, China Robot and Artificial Intelligence Competition
-* Second prize, the Guangdong University Student Computer Works Competition
-* Guangdong University of Technology annual outstanding student third-class scholarship 2022-2023
+---
 
-Skills
-======
-* Programming & Development:
-  * C/C++, Python, JavaScript, Matlab
-  * Visual Studio, PyCharm, STM32, Linux Ubuntu
-  * ROS, Machine Learning, Reinforcement Learning
+## 💼 Work Experience  
+### 🔹 Research Assistant  
+*The Hong Kong University of Science and Technology (Guangzhou)* | June 08, 2025 – Present  
+- Collaborate with Professor Changhao Chen on R&D of **robotic control algorithms** and deployment of unmanned systems  
+- Support experimental design and data validation for algorithm optimization  
 
-Research Interests
-======
-* Robotic control algorithms
-* Reinforcement learning
-* Robot Operating System (ROS)
-* Motion planning
-* Deployment of unmanned systems
+### 🔹 Robotic Software Engineer Intern  
+*Botyard AI* | April 07, 2025 – May 23, 2025  
+- Led ROS development for dexterous hand & UR16e robotic arm using **ros2_control framework**  
+- Implemented core modules: motion control logic, sensor data fusion, and inter-device communication  
+
+
+---
+
+## 📝 Project Experience  
+1. **Dec 2024** – Spherical Robot Control: Emergency Response via Spherical-Ducted UAV Integration  
+2. **Jun 2024** – Robocon: R2 Robot Decision-Making, Positioning & Navigation Algorithm Construction  
+3. **Feb 2024** – Robocon: Control Architecture Design for the R1 Robot  
+4. **Nov 2023** – Sports & Health Analyzer (Tech Stack: CNN-LSTM Neural Network)  
+5. **Jul 2023** – Smart Medical Arms: Manipulator Control, Sensor Collection & Model Building  
+6. **Mar 2023** – Robocon: Rabbit Robot Behavior Tree Strategy Design & ros_control Migration  
+7. **Dec 2022** – Robocon: Steering Wheel Chassis Control & Path Planning (Elephant Robotics)  
+8. **Sep 2022** – Robot Basic Competition: 2D Radar Algorithm Design & Control Code Development  
+9. **Feb 2022** – Logistics Terminal Delivery Vehicles: Control Program & Visual Solution  
+10. **Nov 2021** – Patrol Trolley (Based on Digital Logic Circuit)  
+
+
+---
+
+## 🏆 Honors & Awards  
+| Award Level | Competition/Title |  
+|-------------|-------------------|  
+| First Prize | The 22nd National College Student Robot Competition (ROBOCON) |  
+| Second Prize | The 23rd National College Student Robot Competition (ROBOCON) – Operation Challenge |  
+| Third Prize | The 23rd National College Student Robot Competition (ROBOCON) – Programming Challenge |  
+| National Second Prize | 2024 RoboCom Robot Developer Competition |  
+| Guangdong Province First Prize | China Robot and Artificial Intelligence Competition |  
+| Second Prize | Guangdong University Student Computer Works Competition |  
+| Third-Class Scholarship | Guangdong University of Technology Annual Outstanding Student (2022-2023) |  
+
+
+---
+
+## 🛠️ Technical Skills  
+### 💻 Programming Languages  
+C/C++, Python, JavaScript, Matlab  
+
+### 🔧 Tools & Platforms  
+Visual Studio, PyCharm, STM32, Linux Ubuntu  
+
+### 🤖 Core Technologies  
+Robot Operating System (ROS), Machine Learning, Reinforcement Learning  
+
+
+---
+
+## 🔍 Research Interests  
+- Robotic control algorithms  
+- Reinforcement learning for robotics  
+- Robot Operating System (ROS) optimization  
+- Motion planning for unmanned systems  
+- Deployment of intelligent unmanned systems
