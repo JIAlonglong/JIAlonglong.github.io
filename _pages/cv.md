@@ -64,13 +64,13 @@ redirect_from:
 
 ## 🏆 Honors & Awards  
 
-- First Prize | The 22nd National College Student Robot Competition (ROBOCON)  
-- Second Prize | The 23rd National College Student Robot Competition (ROBOCON) – Operation Challenge  
-- Third Prize | The 23rd National College Student Robot Competition (ROBOCON) – Programming Challenge  
-- National Second Prize | 2024 RoboCom Robot Developer Competition  
-- Guangdong Province First Prize | China Robot and Artificial Intelligence Competition  
-- Second Prize | Guangdong University Student Computer Works Competition  
-- Third-Class Scholarship | Guangdong University of Technology Annual Outstanding Student (2022-2023)  
+- **First Prize** - The 22nd National College Student Robot Competition (ROBOCON)  
+- **Second Prize** - The 23rd National College Student Robot Competition (ROBOCON) – Operation Challenge  
+- **Third Prize** - The 23rd National College Student Robot Competition (ROBOCON) – Programming Challenge  
+- **National Second Prize** - 2024 RoboCom Robot Developer Competition  
+- **Guangdong Province First Prize** - China Robot and Artificial Intelligence Competition  
+- **Second Prize** - Guangdong University Student Computer Works Competition  
+- **Third-Class Scholarship** - Guangdong University of Technology Annual Outstanding Student (2022-2023)  
 
 
 ---
