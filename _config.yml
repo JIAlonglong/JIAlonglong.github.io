@@ -24,10 +24,10 @@ author:
   # Biographic information
   avatar           : "life_jl.jpg"
   name             : "Jialong Liu(刘家隆)"
-  pronouns         : # example: "she/her"  
+  pronouns         : "he/him"
   bio              : "Stay hungry, stay foolish"
   location         : "China/GuangZhou"
-  employer         : "The Hong Kong University of Science and Technology"
+  employer         : "HKUST"
   uri              : # URL
   email            : "jialonglongliu@gmail.com" 
 
@@ -76,7 +76,7 @@ author:
   wikipedia        : # Username
   xing             : # Username
   youtube          : # Username
-  zhihu            : # Username
+  zhihu            : JIAlonglong
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
