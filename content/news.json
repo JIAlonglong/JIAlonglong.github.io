@@ -1,41 +1,51 @@
 [
   {
     "type": "publication",
-    "badge": "Publication",
+    "badge": "Preprint",
     "icon": "FaFileAlt",
     "iconColor": "blue.400",
-    "title": "Paper on nap optimization accepted at NapCon 2025",
-    "description": "Cookie's paper \"Optimal Nap Scheduling on Multi-Cushion Couches\" has been accepted at NapCon 2025.",
-    "date": "Dec 2025",
-    "sortDate": "2025-12-01",
+    "title": "Paper 'REAL' submitted — robust extreme agility for legged robots",
+    "description": "'REAL: Robust Extreme Agility via Spatio-Temporal Policy Learning and Physics-Guided Filtering' submitted for review. Zero-shot transfer on Unitree Go2.",
+    "date": "2026",
+    "sortDate": "2026-01-01",
     "links": [
-      { "text": "Paper", "url": "https://h-freax.github.io/TermHub", "icon": "FaFilePdf" }
-    ]
-  },
-  {
-    "type": "talk",
-    "badge": "Talk",
-    "icon": "FaMicrophone",
-    "iconColor": "purple.400",
-    "title": "Invited bark at International Squirrel Tracking Workshop",
-    "description": "Presented on real-time squirrel detection using advanced sniffing algorithms.",
-    "date": "Mar 2025",
-    "sortDate": "2025-03-10",
-    "links": [
-      { "text": "Slides", "url": "https://h-freax.github.io/TermHub", "icon": "FaDesktop" }
+      { "text": "arXiv", "url": "https://github.com/JIAlonglong", "icon": "FaFilePdf" },
+      { "text": "Code", "url": "https://github.com/JIAlonglong/REAL", "icon": "FaGithub" }
     ]
   },
   {
     "type": "release",
-    "badge": "Release",
+    "badge": "Project",
     "icon": "FaRocket",
     "iconColor": "green.400",
-    "title": "FetchQL v1.0 released",
-    "description": "Released FetchQL, an open-source ball trajectory prediction library achieving 95% catch rate.",
-    "date": "Jul 2024",
-    "sortDate": "2024-07-01",
+    "title": "Robot-LLM-Align released — LLM fine-tuning & ReAct agent for robot control",
+    "description": "End-to-end SFT+DPO alignment pipeline on Qwen2.5 with LoRA, achieving 91% instruction accuracy. Self-built ReAct agent system for task planning and tool-calling.",
+    "date": "2025",
+    "sortDate": "2025-11-01",
     "links": [
-      { "text": "GitHub", "url": "https://h-freax.github.io/TermHub", "icon": "FaGithub" }
+      { "text": "Code", "url": "https://github.com/JIAlonglong/robot-llm-align", "icon": "FaGithub" }
     ]
+  },
+  {
+    "type": "position",
+    "badge": "Admission",
+    "icon": "FaUniversity",
+    "iconColor": "purple.400",
+    "title": "Admitted to HKUST(GZ) MPhil in AI with full scholarship",
+    "description": "Incoming M.Phil. student in Artificial Intelligence at The Hong Kong University of Science and Technology (Guangzhou), fully funded.",
+    "date": "2026",
+    "sortDate": "2026-03-01",
+    "links": []
+  },
+  {
+    "type": "talk",
+    "badge": "Award",
+    "icon": "FaTrophy",
+    "iconColor": "yellow.400",
+    "title": "National 1st Prize at 22nd ROBOCON (Top 16 / 150+ teams)",
+    "description": "Led GDUT ROBOCON team as captain to national 1st prize at the 22nd ABU China Selection.",
+    "date": "2023",
+    "sortDate": "2023-08-01",
+    "links": []
   }
 ]

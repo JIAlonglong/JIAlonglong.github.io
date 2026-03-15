@@ -2,66 +2,51 @@
   "education": {
     "courses": [
       {
-        "course": "Master of Goodgirl Sciences",
-        "institution": "The Couch Lab",
-        "year": "2024-2026"
+        "course": "M.Phil. in Artificial Intelligence (Full Scholarship)",
+        "institution": "The Hong Kong University of Science and Technology (Guangzhou)",
+        "year": "2026 - Present"
       },
       {
-        "course": "Bachelor of Fetching Arts",
-        "institution": "Goodgirl Obedience School",
-        "year": "2020-2024"
+        "course": "B.E. in Robot Engineering",
+        "institution": "Guangdong University of Technology",
+        "year": "2021 - 2025"
       }
     ]
   },
-  "reviewing": [
-    { "venue": "International Conference on Treat Fairness 2026", "role": "Reviewer" },
-    { "venue": "Workshop on Squirrel Detection 2025", "role": "Reviewer" }
-  ],
+  "reviewing": [],
   "timeline": [
     {
-      "title": "Senior Nap Researcher",
-      "company": "The Couch Lab",
-      "companyUrl": "https://h-freax.github.io/TermHub",
-      "location": "Living Room",
-      "start": "2024-09-01",
+      "title": "Research Assistant",
+      "company": "PEAK Lab, HKUST(GZ)",
+      "companyUrl": "https://www.hkust-gz.edu.cn",
+      "location": "Guangzhou, China",
+      "start": "2025-06-08",
+      "end": "2026-03-01",
       "category": "research",
       "roleType": "research",
-      "isCurrent": true,
-      "summary": "Focus: nap optimization and treat-driven reinforcement learning.",
+      "isCurrent": false,
+      "summary": "Legged robot agility control via deep RL under Prof. Changhao Chen.",
       "highlights": [
-        "Achieved 99.7% nap success rate across all couch positions.",
-        "Discovered that belly rubs improve nap quality by 40%.",
-        "Co-authored a paper on optimal treat distribution timing."
+        "Designed FiLM-modulated Mamba policy and EKF-based neural velocity estimator for extreme agility.",
+        "Applied Consistency-aware loss gating to stabilize policy distillation under large-scale domain randomization.",
+        "Achieved zero-shot transfer on Unitree Go2 at ~13.1 ms/step inference latency.",
+        "First author on paper 'REAL' currently under review."
       ]
     },
     {
-      "title": "Junior Fetch Intern",
-      "company": "Backyard Research Institute",
-      "companyUrl": "https://h-freax.github.io/TermHub",
-      "location": "The Backyard",
-      "start": "2023-01-15",
-      "end": "2024-05-20",
-      "category": "research",
-      "roleType": "research",
-      "highlights": [
-        "Tracked 500+ squirrels using advanced sniffing algorithms.",
-        "Optimized fetch return time by 30% through tail-wagging aerodynamics.",
-        "Won Best Zoomies Award at the annual backyard symposium."
-      ]
-    },
-    {
-      "title": "Treat Tester Intern",
-      "company": "Barkington Snacks Co.",
-      "companyUrl": "https://h-freax.github.io/TermHub",
-      "location": "Kitchen",
-      "start": "2025-06-01",
-      "end": "2025-08-31",
+      "title": "Robotic Software Engineer Intern",
+      "company": "Botyard AI (MiraclePlus Portfolio)",
+      "companyUrl": "",
+      "location": "Shenzhen, China",
+      "start": "2025-04-07",
+      "end": "2025-06-01",
       "category": "industry",
       "roleType": "sde",
       "highlights": [
-        "Evaluated 200+ treat varieties across taste, crunch, and smell dimensions.",
-        "Reduced treat waste by 100% (ate everything).",
-        "Developed an internal bark-to-text system for treat requests."
+        "Developed ROS2 end-to-end control pipeline for DexMano / 高山D22 PRO dexterous hand and UR16e arm.",
+        "Optimized arm path planning with MoveIt! and real-time feedback.",
+        "Built CAN/RS485 real-time communication protocol at 100Hz+ for tendon-driven dexterous hand.",
+        "Company backed by MiraclePlus (YC China) with AMD (Xilinx) embodied AI compute platform partnership."
       ]
     }
   ]

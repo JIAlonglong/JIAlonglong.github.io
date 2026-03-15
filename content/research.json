@@ -1,18 +1,10 @@
 {
   "currentResearch": [
     {
-      "lab": "The Couch Lab",
-      "emoji": "🛋️",
-      "advisor": "Dr. Belly Rubs",
-      "focus": "nap optimization and comfort-driven scheduling",
-      "link": "https://h-freax.github.io/TermHub"
-    },
-    {
-      "lab": "Backyard Research Institute",
-      "emoji": "🐿️",
-      "advisor": "Prof. Squirrel",
-      "focus": "real-time squirrel tracking and fetch trajectory optimization",
-      "link": "https://h-freax.github.io/TermHub"
+      "lab": "HKUST(GZ)",
+      "emoji": "🤖",
+      "focus": "embodied AI, LLM agents, and reinforcement learning for intelligent robot systems",
+      "link": "https://www.hkust-gz.edu.cn"
     }
   ]
 }
