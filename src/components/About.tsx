@@ -282,6 +282,17 @@ const PublicationCard = ({ pub }: { pub: any }) => {
 };
 
 export default function About() {
+  // Color values hoisted out of map callbacks to comply with Rules of Hooks
+  const journeyDotBorder = useColorModeValue('gray.300', 'gray.600')
+  const journeyDotBg = useColorModeValue('white', 'gray.800')
+  const journeySlashColor = useColorModeValue('gray.400', 'gray.600')
+  const journeyOrgColor = useColorModeValue('gray.400', 'gray.500')
+  const journeyTitleColor = useColorModeValue('gray.800', 'gray.100')
+  const journeyDescColor = useColorModeValue('gray.500', 'gray.400')
+  const journeyDescBoldColor = useColorModeValue('gray.700', 'gray.200')
+  const journeyTagColor = useColorModeValue('gray.500', 'gray.500')
+  const journeyTagBg = useColorModeValue('gray.100', 'gray.800')
+
   // Sort news items by date (newest first)
   const sortedNews = useMemo(() => {
     return [...news].sort((a, b) => {
@@ -390,8 +401,8 @@ export default function About() {
                                   h="14px"
                                   borderRadius="full"
                                   border="2px solid"
-                                  borderColor={index === about.journeyPhases!.length - 1 ? 'cyan.400' : useColorModeValue('gray.300', 'gray.600')}
-                                  bg={index === about.journeyPhases!.length - 1 ? 'cyan.400' : useColorModeValue('white', 'gray.800')}
+                                  borderColor={index === about.journeyPhases!.length - 1 ? 'cyan.400' : journeyDotBorder}
+                                  bg={index === about.journeyPhases!.length - 1 ? 'cyan.400' : journeyDotBg}
                                 />
                               </Box>
 
@@ -401,20 +412,20 @@ export default function About() {
                                   <Text fontSize="2xs" fontFamily="mono" color="cyan.400" fontWeight="semibold" textTransform="uppercase" letterSpacing="wide">
                                     {phase.period}
                                   </Text>
-                                  <Text fontSize="2xs" color={useColorModeValue('gray.400', 'gray.600')}>
+                                  <Text fontSize="2xs" color={journeySlashColor}>
                                     /
                                   </Text>
-                                  <Text fontSize="2xs" fontFamily="mono" color={useColorModeValue('gray.400', 'gray.500')}>
+                                  <Text fontSize="2xs" fontFamily="mono" color={journeyOrgColor}>
                                     {phase.org}
                                   </Text>
                                 </HStack>
 
-                                <Text fontSize="sm" fontWeight="semibold" color={useColorModeValue('gray.800', 'gray.100')} mb={1}>
+                                <Text fontSize="sm" fontWeight="semibold" color={journeyTitleColor} mb={1}>
                                   {phase.title}
                                 </Text>
 
                                 <Text fontSize="xs" lineHeight="tall" mb={2}>
-                                  {renderBoldText(phase.description, useColorModeValue('gray.500', 'gray.400'), useColorModeValue('gray.700', 'gray.200'))}
+                                  {renderBoldText(phase.description, journeyDescColor, journeyDescBoldColor)}
                                 </Text>
 
                                 {phase.tags && (
@@ -424,10 +435,10 @@ export default function About() {
                                         key={tag}
                                         fontSize="2xs"
                                         fontFamily="mono"
-                                        color={useColorModeValue('gray.500', 'gray.500')}
+                                        color={journeyTagColor}
                                         px={1.5}
                                         py={0.5}
-                                        bg={useColorModeValue('gray.100', 'gray.800')}
+                                        bg={journeyTagBg}
                                         borderRadius="sm"
                                       >
                                         {tag}
