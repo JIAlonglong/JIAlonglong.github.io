@@ -8,6 +8,7 @@ year: 2026
 status: under-review
 isFirstAuthor: true
 links:
+  arxiv: https://arxiv.org/abs/2603.17653
   code: https://github.com/JIAlonglong/REAL
 emoji: "🤖"
 ---
