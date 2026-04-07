@@ -15,7 +15,7 @@ journeyPhases:
     org: PEAK Lab, HKUST(GZ)
     description: Legged robot agility control using deep RL under Prof. Changhao Chen. Designed FiLM-modulated Mamba policy and EKF-based neural velocity estimator. Achieved zero-shot transfer on Unitree Go2. First author on paper under review.
     tags: [Reinforcement Learning, Legged Robots, Mamba, EKF, Isaac Gym]
-  - period: "2026 - 2028"
+  - period: "Seq 2026 - Present"
     title: M.Phil. in Artificial Intelligence (Full Scholarship)
     org: HKUST(GZ)
     description: Pursuing graduate research in AI with focus on embodied intelligence, LLM agents, and reinforcement learning for intelligent systems.
