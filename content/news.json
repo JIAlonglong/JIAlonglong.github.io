@@ -22,7 +22,7 @@
     "date": "2026",
     "sortDate": "2026-01-01",
     "links": [
-      { "text": "arXiv", "url": "https://github.com/JIAlonglong", "icon": "FaFilePdf" },
+      { "text": "arXiv", "url": "https://arxiv.org/abs/2603.17653", "icon": "FaFilePdf" },
       { "text": "Code", "url": "https://github.com/JIAlonglong/REAL", "icon": "FaGithub" }
     ]
   },
