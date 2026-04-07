@@ -1,5 +1,18 @@
 [
   {
+    "type": "position",
+    "badge": "Admission",
+    "icon": "FaUniversity",
+    "iconColor": "purple.400",
+    "title": "Admitted to Astribot as Robot Algorithm Researcher",
+    "description": "Robot Algorithm Researcher at Astribot, a Frontier Tech Exploration Center AI Lab.",
+    "date": "2026",
+    "sortDate": "2026-04-15",
+    "links": [
+      { "text": "Astribot", "url": "https://astribot.com", "icon": "FaLink" }
+    ]
+  },
+  {
     "type": "publication",
     "badge": "Preprint",
     "icon": "FaFileAlt",
