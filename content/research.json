@@ -1,6 +1,12 @@
 {
   "currentResearch": [
     {
+      "lab": "Astribot(Frontier Tech Exploration Center AI Lab)",
+      "emoji": "🚀",
+      "focus": "Robotics Fundamental Model and VLA research",
+      "link": "https://astribot.com"
+    },
+    {
       "lab": "HKUST(GZ)",
       "emoji": "🤖",
       "focus": "embodied AI, LLM agents, and reinforcement learning for intelligent robot systems",
