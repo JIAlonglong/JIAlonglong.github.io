@@ -20,6 +20,11 @@ journeyPhases:
     org: HKUST(GZ)
     description: Pursuing graduate research in AI with focus on embodied intelligence, LLM agents, and reinforcement learning for intelligent systems.
     tags: [Embodied AI, LLM Agents, Reinforcement Learning, HKUST(GZ)]
+  - period: "Apr 2026 - Present"
+    title: Robot Algorithm Researcher
+    org: Astribot (Frontier Tech Exploration Center AI Lab)
+    description: Research on robot foundation models and Vision-Language-Action (VLA) frameworks for autonomous manipulation. Developing novel algorithms for embodied AI and multi-modal perception, contributing to generalist robotics through large-scale model training and evaluation.
+    tags: [VLA, Foundation Models, Embodied AI, Multi-modal Perception]
 mentorship:
   heading: Collaborators
   description: Open to collaboration on embodied AI, LLM agents, and intelligent robot systems.
