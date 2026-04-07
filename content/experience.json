@@ -16,6 +16,24 @@
   "reviewing": [],
   "timeline": [
     {
+      "title": "Robot Algorithm Researcher",
+      "company": "星尘智能 (Astribot)",
+      "companyUrl": "https://astribot.com",
+      "location": "Shenzhen, China",
+      "start": "2026-04-15",
+      "end": "Present",
+      "category": "industry",
+      "roleType": "research",
+      "isCurrent": true,
+      "summary": "Robotics Fundamental Model and VLA research at Frontier Tech Exploration Center AI Lab.",
+      "highlights": [
+        "Research on robot foundation models and Vision-Language-Action (VLA) frameworks for autonomous manipulation.",
+        "Developing novel algorithms for embodied AI and multi-modal perception in robotic systems.",
+        "Contributing to the advancement of generalist robotics through large-scale model training and evaluation.",
+        "Collaborating with cross-functional team to integrate research findings into real-world robotic applications."
+      ]
+    },
+    {
       "title": "Research Assistant",
       "company": "PEAK Lab, HKUST(GZ)",
       "companyUrl": "https://www.hkust-gz.edu.cn",
@@ -47,24 +65,6 @@
         "Optimized arm path planning with MoveIt! and real-time feedback.",
         "Built CAN/RS485 real-time communication protocol at 100Hz+ for tendon-driven dexterous hand.",
         "Company backed by MiraclePlus (YC China) with AMD (Xilinx) embodied AI compute platform partnership."
-      ]
-    },
-    {
-      "title": "Robot Algorithm Researcher",
-      "company": "星尘智能 (Astribot)",
-      "companyUrl": "https://astribot.com",
-      "location": "Shenzhen, China",
-      "start": "2026-03-01",
-      "end": "Present",
-      "category": "industry",
-      "roleType": "research",
-      "isCurrent": true,
-      "summary": "Robotics Fundamental Model and VLA research at Frontier Tech Exploration Center AI Lab.",
-      "highlights": [
-        "Research on robot foundation models and Vision-Language-Action (VLA) frameworks for autonomous manipulation.",
-        "Developing novel algorithms for embodied AI and multi-modal perception in robotic systems.",
-        "Contributing to the advancement of generalist robotics through large-scale model training and evaluation.",
-        "Collaborating with cross-functional team to integrate research findings into real-world robotic applications."
       ]
     }
   ]
