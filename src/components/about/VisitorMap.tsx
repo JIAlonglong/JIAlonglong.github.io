@@ -11,7 +11,7 @@ import { useEffect, useRef } from 'react'
  *
  * Until ID is set, a placeholder card renders.
  */
-const CLUSTRMAPS_ID = '' // e.g. 'qqYfShfqJiPVsKUmBgyEr3-23P9LwsJj9KGzYV2n3eo'
+const CLUSTRMAPS_ID = 'BfZuT3M_U63LCc9qZ8n9Si7AQH27Kb2ZWzkn1p-rJOA'
 
 const VisitorMap = () => {
   const containerRef = useRef<HTMLDivElement>(null)
@@ -24,8 +24,8 @@ const VisitorMap = () => {
     if (!CLUSTRMAPS_ID || !containerRef.current) return
     if (containerRef.current.querySelector('script')) return
     const script = document.createElement('script')
-    script.id = 'clustrmaps'
-    script.src = `//clustrmaps.com/map_v2.js?d=${CLUSTRMAPS_ID}&cl=ffffff&w=a`
+    script.id = 'mapmyvisitors'
+    script.src = `//mapmyvisitors.com/map.js?d=${CLUSTRMAPS_ID}&cl=ffffff&w=a`
     script.async = true
     containerRef.current.appendChild(script)
   }, [])
