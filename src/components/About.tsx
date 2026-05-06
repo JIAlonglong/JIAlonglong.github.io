@@ -7,6 +7,7 @@ import DynamicIcon from './DynamicIcon'
 // Import sub-components
 import HeroSection from './about/HeroSection'
 import Footer from './about/Footer'
+import VisitorMap from './about/VisitorMap'
 import NewsTimeline from './about/NewsTimeline'
 import AccomplishmentsTerminal from './AccomplishmentsTerminal'
 
@@ -551,6 +552,7 @@ export default function About() {
           
           <AccomplishmentsTerminal />
         </Box>
+        <VisitorMap />
         <Footer />
       </VStack>
     </Box>
