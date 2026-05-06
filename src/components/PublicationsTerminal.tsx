@@ -442,8 +442,8 @@ const PublicationsTerminal: React.FC = () => {
                   position="relative"
                   minH="200px"
                 >
-                  {/* Featured Image/Video Thumbnail */}
-                  {(pub.featuredVideo || pub.featuredImage) && !isMobile && (
+                  {/* Featured Image Thumbnail (collapsed row uses image only; video shown when expanded) */}
+                  {pub.featuredImage && !isMobile && (
                     <Box
                       w="320px"
                       h="180px"
@@ -458,42 +458,28 @@ const PublicationsTerminal: React.FC = () => {
                       overflow="hidden"
                       onClick={(e) => e.stopPropagation()}
                     >
-                      {pub.featuredVideo ? (
-                        <Box
-                          as="video"
-                          src={pub.featuredVideo}
-                          autoPlay
-                          loop
-                          muted
-                          playsInline
-                          w="full"
-                          h="full"
-                          sx={{ objectFit: 'cover' }}
-                        />
-                      ) : (
-                        <Image
-                          src={pub.featuredImage}
-                          alt={`${pub.title} thumbnail`}
-                          w="full"
-                          h="full"
-                          objectFit="contain"
-                          p={3}
-                          cursor="zoom-in"
-                          role="button"
-                          tabIndex={0}
-                          onClick={() => showImagePreview(pub.featuredImage, `${pub.title} thumbnail`)}
-                          onKeyDown={(event) => {
-                            if (event.key === 'Enter' || event.key === ' ') {
-                              event.preventDefault()
-                              showImagePreview(pub.featuredImage, `${pub.title} thumbnail`)
-                            }
-                          }}
-                          transition="transform 0.2s"
-                          _hover={{
-                            transform: 'scale(1.05)'
-                          }}
-                        />
-                      )}
+                      <Image
+                        src={pub.featuredImage}
+                        alt={`${pub.title} thumbnail`}
+                        w="full"
+                        h="full"
+                        objectFit="contain"
+                        p={3}
+                        cursor="zoom-in"
+                        role="button"
+                        tabIndex={0}
+                        onClick={() => showImagePreview(pub.featuredImage, `${pub.title} thumbnail`)}
+                        onKeyDown={(event) => {
+                          if (event.key === 'Enter' || event.key === ' ') {
+                            event.preventDefault()
+                            showImagePreview(pub.featuredImage, `${pub.title} thumbnail`)
+                          }
+                        }}
+                        transition="transform 0.2s"
+                        _hover={{
+                          transform: 'scale(1.05)'
+                        }}
+                      />
                     </Box>
                   )}
                   
