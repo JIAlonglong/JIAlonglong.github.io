@@ -68,36 +68,56 @@ const PublicationCard = ({ pub }: { pub: any }) => {
         gap={[4, 4, 6]}
         align="stretch"
       >
-        {/* Featured Image */}
-        {pub.featuredImage && (
+        {/* Featured Video / Image */}
+        {(pub.featuredVideo || pub.featuredImage) && (
           <Box
             flexShrink={0}
             w={["full", "full", "300px"]}
             minH={["200px", "220px", "auto"]}
-            role="button"
-            tabIndex={0}
-            onClick={onImageOpen}
-            onKeyDown={(event) => {
-              if (event.key === 'Enter' || event.key === ' ') {
-                event.preventDefault()
-                onImageOpen()
-              }
-            }}
-            cursor="zoom-in"
             overflow="hidden"
             borderRadius="sm"
+            bg={useColorModeValue('gray.50', 'gray.900')}
           >
-            <Image
-              src={pub.featuredImage}
-              alt={pub.title}
-              w="full"
-              h="full"
-              objectFit="contain"
-              bg={useColorModeValue('gray.50', 'gray.900')}
-              p={1}
-              transition="transform 0.3s"
-              _hover={{ transform: 'scale(1.03)' }}
-            />
+            {pub.featuredVideo ? (
+              <Box
+                as="video"
+                src={pub.featuredVideo}
+                controls
+                autoPlay
+                loop
+                muted
+                playsInline
+                w="full"
+                h="full"
+                sx={{ objectFit: 'cover' }}
+              />
+            ) : (
+              <Box
+                role="button"
+                tabIndex={0}
+                onClick={onImageOpen}
+                onKeyDown={(event) => {
+                  if (event.key === 'Enter' || event.key === ' ') {
+                    event.preventDefault()
+                    onImageOpen()
+                  }
+                }}
+                cursor="zoom-in"
+                w="full"
+                h="full"
+              >
+                <Image
+                  src={pub.featuredImage}
+                  alt={pub.title}
+                  w="full"
+                  h="full"
+                  objectFit="contain"
+                  p={1}
+                  transition="transform 0.3s"
+                  _hover={{ transform: 'scale(1.03)' }}
+                />
+              </Box>
+            )}
           </Box>
         )}
 
@@ -199,6 +219,7 @@ const PublicationCard = ({ pub }: { pub: any }) => {
             {pub.links.code && <PubLink href={pub.links.code} icon="FaGithub" label="Code" />}
             {pub.links.demo && <PubLink href={pub.links.demo} icon="FaPlay" label="Demo" />}
             {pub.links.dataset && <PubLink href={pub.links.dataset} icon="FaDatabase" label="Dataset" />}
+            {pub.links.article && <PubLink href={pub.links.article} icon="FaWeixin" label="Article" />}
             {pub.abstract && (
               <HStack
                 as="button"
