@@ -166,6 +166,7 @@ export interface Publication {
   coFirstAuthors?: string[]
   emoji?: string
   featuredImage?: string
+  featuredVideo?: string
 }
 
 export interface Award {

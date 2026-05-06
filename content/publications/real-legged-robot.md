@@ -12,6 +12,7 @@ links:
   code: https://github.com/JIAlonglong/REAL
   article: https://mp.weixin.qq.com/s/-_USWXRwAjuAnTRx2BTxyw
 emoji: "🤖"
+featuredVideo: /images/REAL_DEMO.mp4
 ---
 
 We present REAL, a framework for robust extreme agility control of legged robots. REAL combines a FiLM-modulated Mamba spatio-temporal policy with an EKF-based neural velocity estimator, and uses Consistency-aware loss gating to stabilize policy distillation under large-scale domain randomization. The system achieves zero-shot transfer to the Unitree Go2 robot with ~13.1 ms/step inference latency, enabling extreme parkour-style agility in real-world deployment.

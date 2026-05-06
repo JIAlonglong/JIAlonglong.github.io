@@ -442,10 +442,10 @@ const PublicationsTerminal: React.FC = () => {
                   position="relative"
                   minH="200px"
                 >
-                  {/* Featured Image Thumbnail */}
-                  {pub.featuredImage && !isMobile && (
-                    <Box 
-                      w="320px" 
+                  {/* Featured Image/Video Thumbnail */}
+                  {(pub.featuredVideo || pub.featuredImage) && !isMobile && (
+                    <Box
+                      w="320px"
                       h="180px"
                       mr={6}
                       flexShrink={0}
@@ -456,29 +456,44 @@ const PublicationsTerminal: React.FC = () => {
                       borderRadius="lg"
                       border={`1px solid ${termBorder}`}
                       overflow="hidden"
-                      cursor="zoom-in"
-                      role="button"
-                      tabIndex={0}
-                      onClick={() => showImagePreview(pub.featuredImage, `${pub.title} thumbnail`)}
-                      onKeyDown={(event) => {
-                        if (event.key === 'Enter' || event.key === ' ') {
-                          event.preventDefault()
-                          showImagePreview(pub.featuredImage, `${pub.title} thumbnail`)
-                        }
-                      }}
+                      onClick={(e) => e.stopPropagation()}
                     >
-                      <Image
-                        src={pub.featuredImage}
-                        alt={`${pub.title} thumbnail`}
-                        w="full"
-                        h="full"
-                        objectFit="contain"
-                        p={3}
-                        transition="transform 0.2s"
-                        _hover={{
-                          transform: 'scale(1.05)'
-                        }}
-                      />
+                      {pub.featuredVideo ? (
+                        <Box
+                          as="video"
+                          src={pub.featuredVideo}
+                          autoPlay
+                          loop
+                          muted
+                          playsInline
+                          w="full"
+                          h="full"
+                          sx={{ objectFit: 'cover' }}
+                        />
+                      ) : (
+                        <Image
+                          src={pub.featuredImage}
+                          alt={`${pub.title} thumbnail`}
+                          w="full"
+                          h="full"
+                          objectFit="contain"
+                          p={3}
+                          cursor="zoom-in"
+                          role="button"
+                          tabIndex={0}
+                          onClick={() => showImagePreview(pub.featuredImage, `${pub.title} thumbnail`)}
+                          onKeyDown={(event) => {
+                            if (event.key === 'Enter' || event.key === ' ') {
+                              event.preventDefault()
+                              showImagePreview(pub.featuredImage, `${pub.title} thumbnail`)
+                            }
+                          }}
+                          transition="transform 0.2s"
+                          _hover={{
+                            transform: 'scale(1.05)'
+                          }}
+                        />
+                      )}
                     </Box>
                   )}
                   
@@ -691,10 +706,10 @@ const PublicationsTerminal: React.FC = () => {
                         </Box>
                       </Box>
                       
-                      {/* Right side - Featured Image */}
-                      {pub.featuredImage && (
-                        <Box 
-                          w={isMobile ? "full" : "450px"} 
+                      {/* Right side - Featured Video / Image */}
+                      {(pub.featuredVideo || pub.featuredImage) && (
+                        <Box
+                          w={isMobile ? "full" : "450px"}
                           h={isMobile ? "auto" : "300px"}
                           flexShrink={0}
                           order={isMobile ? -1 : 1}
@@ -705,30 +720,46 @@ const PublicationsTerminal: React.FC = () => {
                           borderRadius="lg"
                           border={`1px solid ${termBorder}`}
                           overflow="hidden"
-                          cursor="zoom-in"
-                          role="button"
-                          tabIndex={0}
-                          onClick={() => showImagePreview(pub.featuredImage, `${pub.title} featured image`)}
-                          onKeyDown={(event) => {
-                            if (event.key === 'Enter' || event.key === ' ') {
-                              event.preventDefault()
-                              showImagePreview(pub.featuredImage, `${pub.title} featured image`)
-                            }
-                          }}
+                          onClick={(e) => e.stopPropagation()}
                         >
-                          <Image
-                            src={pub.featuredImage}
-                            alt={`${pub.title} featured image`}
-                            w="full"
-                            h="full"
-                            objectFit="contain"
-                            p={4}
-                            transition="transform 0.3s"
-                            _hover={{
-                              transform: 'scale(1.08)',
-                              cursor: 'zoom-in'
-                            }}
-                          />
+                          {pub.featuredVideo ? (
+                            <Box
+                              as="video"
+                              src={pub.featuredVideo}
+                              controls
+                              autoPlay
+                              loop
+                              muted
+                              playsInline
+                              w="full"
+                              h="full"
+                              sx={{ objectFit: 'contain' }}
+                            />
+                          ) : (
+                            <Image
+                              src={pub.featuredImage}
+                              alt={`${pub.title} featured image`}
+                              w="full"
+                              h="full"
+                              objectFit="contain"
+                              p={4}
+                              cursor="zoom-in"
+                              role="button"
+                              tabIndex={0}
+                              onClick={() => showImagePreview(pub.featuredImage, `${pub.title} featured image`)}
+                              onKeyDown={(event) => {
+                                if (event.key === 'Enter' || event.key === ' ') {
+                                  event.preventDefault()
+                                  showImagePreview(pub.featuredImage, `${pub.title} featured image`)
+                                }
+                              }}
+                              transition="transform 0.3s"
+                              _hover={{
+                                transform: 'scale(1.08)',
+                                cursor: 'zoom-in'
+                              }}
+                            />
+                          )}
                         </Box>
                       )}
                     </Flex>
