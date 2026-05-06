@@ -10,6 +10,7 @@ isFirstAuthor: true
 links:
   arxiv: https://arxiv.org/abs/2603.17653
   code: https://github.com/JIAlonglong/REAL
+  article: https://mp.weixin.qq.com/s/-_USWXRwAjuAnTRx2BTxyw
 emoji: "🤖"
 ---
 

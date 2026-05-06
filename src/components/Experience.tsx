@@ -489,6 +489,45 @@ const Experience: React.FC = () => {
                               </HStack>
                             ))}
                           </VStack>
+                          {exp.people && exp.people.length > 0 && (
+                            <Box mt={3} pt={2} borderTop={`1px dashed ${termBorder}`}>
+                              <Text fontSize="2xs" fontWeight="bold" color={termSecondary} letterSpacing="0.06em" textTransform="uppercase" mb={1.5}>
+                                People
+                              </Text>
+                              <Flex gap={2} flexWrap="wrap">
+                                {exp.people.map((p, i) => (
+                                  p.url ? (
+                                    <Link
+                                      key={i}
+                                      href={p.url} isExternal
+                                      onClick={e => e.stopPropagation()}
+                                      fontSize="xs"
+                                      color={termCommand}
+                                      px={2} py={0.5}
+                                      borderRadius="full"
+                                      border="1px solid"
+                                      borderColor={isDark ? 'whiteAlpha.150' : 'blackAlpha.100'}
+                                      _hover={{ textDecoration: 'underline', borderColor: rtColor }}
+                                    >
+                                      {p.name}{p.role ? ` · ${p.role}` : ''}
+                                    </Link>
+                                  ) : (
+                                    <Text
+                                      key={i}
+                                      fontSize="xs"
+                                      color={termText}
+                                      px={2} py={0.5}
+                                      borderRadius="full"
+                                      border="1px solid"
+                                      borderColor={isDark ? 'whiteAlpha.150' : 'blackAlpha.100'}
+                                    >
+                                      {p.name}{p.role ? ` · ${p.role}` : ''}
+                                    </Text>
+                                  )
+                                ))}
+                              </Flex>
+                            </Box>
+                          )}
                         </Box>
                       </Collapse>
                     </Box>

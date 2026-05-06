@@ -31,6 +31,10 @@
         "Developing novel algorithms for embodied AI and multi-modal perception in robotic systems.",
         "Contributing to the advancement of generalist robotics through large-scale model training and evaluation.",
         "Collaborating with cross-functional team to integrate research findings into real-world robotic applications."
+      ],
+      "people": [
+        { "name": "Jianan Wang", "role": "Mentor" },
+        { "name": "Peijun Tang", "role": "Mentor" }
       ]
     },
     {
@@ -49,6 +53,9 @@
         "Applied Consistency-aware loss gating to stabilize policy distillation under large-scale domain randomization.",
         "Achieved zero-shot transfer on Unitree Go2 at ~13.1 ms/step inference latency.",
         "First author on paper 'REAL' currently under review."
+      ],
+      "people": [
+        { "name": "Prof. Changhao Chen", "url": "https://changhao-chen.github.io/", "role": "Advisor" }
       ]
     },
     {

@@ -675,6 +675,7 @@ const PublicationsTerminal: React.FC = () => {
                                     key === 'projectPage' ? 'purple' :
                                     key === 'demo' ? 'orange' :
                                     key === 'dataset' ? 'teal' :
+                                    key === 'article' ? 'pink' :
                                     'gray'
                                   }
                                   fontSize="xs"

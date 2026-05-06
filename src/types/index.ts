@@ -79,6 +79,11 @@ export interface ExperienceEntry {
   summary?: string
   highlights: string[]
   isCurrent?: boolean
+  people?: {
+    name: string
+    url?: string
+    role?: string
+  }[]
 }
 
 export interface JourneyPhase {
@@ -151,6 +156,7 @@ export interface Publication {
     code?: string
     dataset?: string
     demo?: string
+    article?: string
   }
   specialBadges?: string[]
   citations?: number
