@@ -2,10 +2,10 @@
 id: real-legged-robot
 title: "REAL: Robust Extreme Agility via Spatio-Temporal Policy Learning and Physics-Guided Filtering"
 authors: [Jialong Liu, Dehan Shen, Yanbo Wen, Zeyu Jiang, Changhao Chen]
-venue: Under Review
-venueType: preprint
+venue: "IROS 2026"
+venueType: conference
 year: 2026
-status: under-review
+status: published
 isFirstAuthor: true
 links:
   arxiv: https://arxiv.org/abs/2603.17653

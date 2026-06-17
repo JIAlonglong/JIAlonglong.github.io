@@ -4,7 +4,7 @@ category: robotics
 date: 2026-01-01
 tags: [Reinforcement Learning, Legged Robots, Mamba, EKF, Isaac Gym, Zero-shot Transfer]
 isOpenSource: true
-badge: "🤖 Under Review"
+badge: "🤖 IROS 2026"
 featured: true
 story: Getting a real robot to do parkour without ever training on real hardware — zero-shot transfer is wild when it actually works.
 ---
@@ -17,4 +17,4 @@ REAL is a deep RL framework for extreme agility control of legged robots, achiev
 - EKF-based neural velocity estimator for physics-guided state estimation.
 - Consistency-aware loss gating stabilizes policy distillation under large-scale domain randomization.
 - Zero-shot transfer to Unitree Go2 at ~13.1 ms/step inference latency.
-- Paper under review (first author: Jialong Liu).
+- Paper accepted at IROS 2026 (first author: Jialong Liu).

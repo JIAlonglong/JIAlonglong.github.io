@@ -14,11 +14,11 @@
   },
   {
     "type": "publication",
-    "badge": "Preprint",
+    "badge": "IROS 2026",
     "icon": "FaFileAlt",
     "iconColor": "blue.400",
-    "title": "Paper 'REAL' submitted — robust extreme agility for legged robots",
-    "description": "'REAL: Robust Extreme Agility via Spatio-Temporal Policy Learning and Physics-Guided Filtering' submitted for review. Zero-shot transfer on Unitree Go2.",
+    "title": "Paper 'REAL' accepted at IROS 2026 — robust extreme agility for legged robots",
+    "description": "'REAL: Robust Extreme Agility via Spatio-Temporal Policy Learning and Physics-Guided Filtering' accepted at IEEE/RSJ IROS 2026. Zero-shot transfer on Unitree Go2.",
     "date": "2026",
     "sortDate": "2026-01-01",
     "links": [
