@@ -40,7 +40,7 @@
     "github": "https://github.com/JIAlonglong",
     "linkedin": "",
     "medium": "",
-    "googleScholar": "",
+    "googleScholar": "https://scholar.google.com/citations?user=D5H2gHgAAAAJ&hl=zh-CN",
     "twitter": "",
     "youtube": "",
     "bilibili": "",
@@ -62,7 +62,8 @@
   },
 
   "heroSocialIcons": [
-    { "platform": "github", "icon": "FaGithub", "label": "GitHub", "color": "#333" }
+    { "platform": "github", "icon": "FaGithub", "label": "GitHub", "color": "#333" },
+    { "platform": "googleScholar", "icon": "SiGooglescholar", "label": "Google Scholar", "color": "#4285F4" }
   ],
 
   "selectedPublicationIds": ["core-wam", "real-legged-robot"]
