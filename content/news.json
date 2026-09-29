@@ -1,5 +1,18 @@
 [
   {
+    "type": "publication",
+    "badge": "arXiv 2026",
+    "icon": "FaFileAlt",
+    "iconColor": "blue.400",
+    "title": "CoRe-WAM preprint released — correspondence-aligned temporal residuals for robot manipulation",
+    "description": "Co-first-author paper introducing TraceDelta for world-action models. CoRe-WAM reaches 92.22% success across 50 clean RoboTwin 2.0 tasks.",
+    "date": "2026-09-23",
+    "sortDate": "2026-09-23",
+    "links": [
+      { "text": "arXiv", "url": "https://arxiv.org/abs/2609.27314", "icon": "FaFilePdf" }
+    ]
+  },
+  {
     "type": "position",
     "badge": "Admission",
     "icon": "FaUniversity",

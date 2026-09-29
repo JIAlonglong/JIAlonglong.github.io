@@ -65,5 +65,5 @@
     { "platform": "github", "icon": "FaGithub", "label": "GitHub", "color": "#333" }
   ],
 
-  "selectedPublicationIds": ["real-legged-robot"]
+  "selectedPublicationIds": ["core-wam", "real-legged-robot"]
 }
