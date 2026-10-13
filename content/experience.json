@@ -13,7 +13,9 @@
       }
     ]
   },
-  "reviewing": [],
+  "reviewing": [
+    { "venue": "ICRA 2027", "role": "Reviewer" }
+  ],
   "timeline": [
     {
       "title": "Robot Algorithm Researcher",
