@@ -17,6 +17,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   const { colorMode, toggleColorMode } = useColorMode()
   const location = useLocation()
   const { isOpen, onOpen, onClose } = useDisclosure()
+  const resumeHref = `${import.meta.env.BASE_URL}resume.pdf`
 
   const socialLinks = [
     { icon: FaEnvelope, href: `mailto:${siteOwner.contact.email}`, label: 'Email' },
@@ -102,6 +103,15 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 </Link>
               )
             })}
+            <ChakraLink
+              href={resumeHref}
+              isExternal
+              color="var(--text-color)"
+              fontSize="1rem"
+              _hover={{ textDecoration: 'none', color: 'var(--accent-color)' }}
+            >
+              Resume
+            </ChakraLink>
           </HStack>
           <HStack spacing={4} display={{ base: 'none', md: 'flex' }}>
             {socialLinks.map((link) => (
@@ -165,6 +175,15 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                     </ChakraLink>
                   )
                 })}
+                <ChakraLink
+                  href={resumeHref}
+                  isExternal
+                  onClick={onClose}
+                  color="var(--text-color)"
+                  _hover={{ color: 'var(--accent-color)' }}
+                >
+                  Resume
+                </ChakraLink>
 
                 <Divider borderColor="var(--border-color)" my={2} />
 
