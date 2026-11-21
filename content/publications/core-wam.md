@@ -9,7 +9,6 @@ month: September
 status: preprint
 isFirstAuthor: true
 isCoFirst: true
-specialBadges: [Co-First]
 keywords: [World Action Models, Robot Manipulation, Temporal Correspondence]
 links:
   paper: https://arxiv.org/pdf/2609.27314
