@@ -143,10 +143,10 @@ export interface Publication {
   title: string
   authors: string[]
   venue: string
-  venueType: 'conference' | 'workshop' | 'demo' | 'preprint'
+  venueType: 'conference' | 'workshop' | 'demo' | 'preprint' | 'under-review'
   year: number
   month?: string
-  status: 'accepted' | 'published' | 'preprint'
+  status: 'accepted' | 'published' | 'preprint' | 'under-review'
   abstract?: string
   keywords?: string[]
   links: {

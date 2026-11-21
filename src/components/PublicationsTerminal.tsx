@@ -377,6 +377,7 @@ const PublicationsTerminal: React.FC = () => {
                 <option value="workshop">Workshops</option>
                 <option value="demo">Demo</option>
                 <option value="preprint">Preprints</option>
+                <option value="under-review">Under review</option>
               </Select>
               
               <IconButton

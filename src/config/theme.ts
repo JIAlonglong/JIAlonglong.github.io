@@ -118,6 +118,11 @@ export const publicationVenueColors: Record<string, { bg: (dk: boolean) => strin
     fg: dk => dk ? '#d08770' : '#b35a2e',
     label: 'DEMO TRACK',
   },
+  'under-review': {
+    bg: dk => dk ? 'rgba(180, 142, 173, 0.15)' : 'rgba(154, 86, 162, 0.1)',
+    fg: dk => dk ? '#b48ead' : '#9a56a2',
+    label: 'UNDER REVIEW',
+  },
   preprint: {
     bg: dk => dk ? 'rgba(163, 190, 140, 0.15)' : 'rgba(54, 128, 90, 0.1)',
     fg: dk => dk ? '#a3be8c' : '#36805a',
