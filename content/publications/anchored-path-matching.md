@@ -15,7 +15,7 @@ links:
   projectPage: https://jialonglong.github.io/Anchored-Path-Matching/
   code: https://github.com/JIAlonglong/Anchored-Path-Matching
 emoji: "🤖"
-featuredImage: https://raw.githubusercontent.com/JIAlonglong/Anchored-Path-Matching/main/docs/public/images/teaser.webp
+featuredVideo: https://jialonglong.github.io/Anchored-Path-Matching/videos/apm-overview.mp4
 ---
 
 Anchored Path Matching (APM) distills world action models into a single student that jointly generates video and actions in 1, 2, or 4 steps. At student-reached states, one frozen-teacher continuation supplies an endpoint anchor and a local transition target, with anchor-priority gradient correction resolving conflicting objectives. APM achieves 91.4% average success across Clean and Random conditions on RoboTwin 2.0 at four steps. On Astribot S1, single-step deployment reduces control-cycle latency by 21.3× relative to the eight-step teacher, without task-specific retraining.
