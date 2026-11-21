@@ -66,5 +66,5 @@
     { "platform": "googleScholar", "icon": "SiGooglescholar", "label": "Google Scholar", "color": "#4285F4" }
   ],
 
-  "selectedPublicationIds": ["core-wam", "real-legged-robot"]
+  "selectedPublicationIds": ["anchored-path-matching", "core-wam", "real-legged-robot"]
 }

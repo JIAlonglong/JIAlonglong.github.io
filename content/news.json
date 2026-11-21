@@ -4,6 +4,33 @@
     "badge": "arXiv 2026",
     "icon": "FaFileAlt",
     "iconColor": "blue.400",
+    "title": "Anchored Path Matching released — few-step world action models for bimanual manipulation",
+    "description": "First-author preprint on teacher-free 1/2/4-step joint video–action generation. Single-step APM reduces control-cycle latency by 21.3× on Astribot S1 relative to the eight-step teacher.",
+    "date": "2026-11",
+    "sortDate": "2026-11",
+    "links": [
+      {
+        "text": "arXiv",
+        "url": "https://arxiv.org/abs/2611.22592",
+        "icon": "FaFilePdf"
+      },
+      {
+        "text": "Project",
+        "url": "https://jialonglong.github.io/Anchored-Path-Matching/",
+        "icon": "FaGlobe"
+      },
+      {
+        "text": "Code",
+        "url": "https://github.com/JIAlonglong/Anchored-Path-Matching",
+        "icon": "FaGithub"
+      }
+    ]
+  },
+  {
+    "type": "publication",
+    "badge": "arXiv 2026",
+    "icon": "FaFileAlt",
+    "iconColor": "blue.400",
     "title": "CoRe-WAM preprint released — correspondence-aligned temporal residuals for robot manipulation",
     "description": "Co-first-author paper introducing TraceDelta for world-action models. CoRe-WAM reaches 92.22% success across 50 clean RoboTwin 2.0 tasks.",
     "date": "2026-09-23",
