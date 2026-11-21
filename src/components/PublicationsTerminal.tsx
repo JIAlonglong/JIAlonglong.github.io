@@ -442,47 +442,6 @@ const PublicationsTerminal: React.FC = () => {
                   position="relative"
                   minH="200px"
                 >
-                  {/* Featured Image Thumbnail (collapsed row uses image only; video shown when expanded) */}
-                  {pub.featuredImage && !isMobile && (
-                    <Box
-                      w="320px"
-                      h="180px"
-                      mr={6}
-                      flexShrink={0}
-                      display="flex"
-                      alignItems="center"
-                      justifyContent="center"
-                      bg={isDark ? 'rgba(0,0,0,0.05)' : 'rgba(255,255,255,0.8)'}
-                      borderRadius="lg"
-                      border={`1px solid ${termBorder}`}
-                      overflow="hidden"
-                      onClick={(e) => e.stopPropagation()}
-                    >
-                      <Image
-                        src={pub.featuredImage}
-                        alt={`${pub.title} thumbnail`}
-                        w="full"
-                        h="full"
-                        objectFit="contain"
-                        p={3}
-                        cursor="zoom-in"
-                        role="button"
-                        tabIndex={0}
-                        onClick={() => showImagePreview(pub.featuredImage, `${pub.title} thumbnail`)}
-                        onKeyDown={(event) => {
-                          if (event.key === 'Enter' || event.key === ' ') {
-                            event.preventDefault()
-                            showImagePreview(pub.featuredImage, `${pub.title} thumbnail`)
-                          }
-                        }}
-                        transition="transform 0.2s"
-                        _hover={{
-                          transform: 'scale(1.05)'
-                        }}
-                      />
-                    </Box>
-                  )}
-                  
                   {/* Title & Authors */}
                   <Box flex="1" pr={2}>
                     <HStack spacing={1} mb={1} flexWrap="wrap">
